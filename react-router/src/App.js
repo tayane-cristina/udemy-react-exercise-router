@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
+
 //COMPONENTS
 
 //PAGES
@@ -10,6 +11,9 @@ import Gallery from './pages/Gallery'
 import Style from './pages/Style'
 import Table from './pages/Table'
 import Begin from './pages/Begin';
+
+
+
 
 
 

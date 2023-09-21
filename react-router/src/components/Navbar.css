@@ -8,7 +8,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    height: 10%;
+    height: 18%;
     font-family: 'Dosis';
 }
 
@@ -79,5 +79,26 @@ a {
     color: rgb(190, 143, 11);
     font-family: 'Yuji Boku';
     
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-navbar {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.create-account-button {
+    font-size: 18px;
+}
+
+.create-account-button:hover {
+    text-decoration: underline 2px  rgb(114, 18, 138);
+    color: rgb(114, 18, 138);
+
 }
 

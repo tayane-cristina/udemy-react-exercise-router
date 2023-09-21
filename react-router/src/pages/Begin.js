@@ -1,5 +1,7 @@
+import './Begin.css'
+
 const Begin = () => {
-    return <div>
+    return <div className="begin-page">
         <h1>Você está na página Begin</h1>
     </div>
 };

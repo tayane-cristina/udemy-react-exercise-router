@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Dosis&family=Montserrat:wght@300&family=Yuji+Boku&display=swap');
+
+.style-page{
+    background-color: white;
+    color: black;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 5%;
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid rgb(190, 143, 11);
+}
+
+.card-style-cuts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.style-title {
+    font-family: "Dosis";
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+    
+}

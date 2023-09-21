@@ -1,6 +1,19 @@
+import './Style.css'
+import Styles from '../Data/Data'
+
 const Style = () => {
-    return <div>
-        <h1>Você está ná página Style</h1>
+
+    return <div className="style-page">
+        <h1 className='style-title'>Cortes para todos os gostos e estilos</h1>
+        <ul className='type-cuts'>
+            {Styles.map((item) => <li key={item.id}>
+                <img width="300" height="300" src={item.img} alt="imagem do corte"></img>
+                <div className='card-style-cuts'>
+                    <h2>{item.type}</h2>
+                    <p>{item.description}</p>
+                </div>
+            </li>)}
+        </ul>
     </div>
 };
 

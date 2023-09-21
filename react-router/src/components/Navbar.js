@@ -3,7 +3,10 @@ import './Navbar.css'
 
 const Navbar = () => {
     return <header>
-        <span className='logo'>Gentleman</span>
+        <div className='logo-div'>
+            <span className='logo'>Gentleman</span>
+            <span className='title-navbar'>Barber shop</span>
+        </div>
         <div className='links'>
             <Link className='link-nav' to="/">Home</Link>
             <Link className='link-nav' to="/gallery">Galeria</Link>
@@ -12,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className='login'>
             <button className='login-button' type='submit'>Login</button>
-            <Link to="/begin">Criar conta</Link>
+            <Link  className="create-account-button" to="/begin">Criar conta</Link>
         </div> 
     </header>
 };

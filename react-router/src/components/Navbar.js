@@ -13,10 +13,6 @@ const Navbar = () => {
             <Link className='link-nav' to="/style">Estilos</Link>
             <Link className='link-nav' to="/table">Tabelas</Link>
         </div>
-        <div className='login'>
-            <button className='login-button' type='submit'>Login</button>
-            <Link  className="create-account-button" to="/begin">Criar conta</Link>
-        </div> 
     </header>
 };
 

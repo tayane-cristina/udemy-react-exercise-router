@@ -14,6 +14,16 @@ const Style = () => {
                 </div>
             </li>)}
         </ul>
+        <footer>
+            <div className="social-midia">
+                <img className="social-midia-icon" alt="WhatsApp" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png?ga=GA1.1.2089675641.1676983403&track=ais" ></img>
+                <img className="social-midia-icon" alt="instagram" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png?ga=GA1.1.2089675641.1676983403&track=ais" ></img>
+                <img className="social-midia-icon" alt="facebook" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png?ga=GA1.1.2089675641.1676983403&track=ais" ></img>
+                <img className="social-midia-icon" alt="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png?ga=GA1.1.2089675641.1676983403&track=ais" ></img>
+            </div>
+            <p className="adress">Centro / Copacabana / Leblon / Tijuca / Ipanema</p>
+            <p>Página desenvolvida por Tayane Cristina em 25 de setembro de 2023 - créditos de imagem a freepik e pixels</p>
+        </footer>
     </div>
 };
 

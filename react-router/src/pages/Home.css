@@ -30,7 +30,7 @@ h1 {
 
 
 .word-key {
-    color: rgb(190, 143, 11);
+  color: rgb(175, 27, 27);
 }
 
 .second-page {
@@ -115,6 +115,7 @@ h1 {
     flex-wrap: wrap;
     height: auto;
     width: 40%;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .home-h3 {
@@ -182,9 +183,6 @@ h1 {
     cursor: pointer;
   }
 
-  .social-midia-icon:hover {
-    
-  }
 
 
 

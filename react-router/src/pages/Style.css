@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Dosis&family=Montserrat:wght@300&family=Yuji+Boku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .style-page{
-    background-color: white;
-    color: black;
+    background-color: rgba(20, 20, 20, 0.897);
+    color: rgb(240, 235, 235);
     height: 100%;
     font-family: 'Nunito', sans-serif;
 }
+
+
 
 ul {
     height: auto;
@@ -36,7 +39,7 @@ li {
 
 .cort-image {
     border-radius: 50%;
-    border: 5px solid rgb(190, 143, 11);
+    border: 5px solid rgb(175, 27, 27);;
 }
 
 .card-style-cuts {
@@ -60,4 +63,12 @@ h2 {
 p {
     font-size: 25px;
     
+}
+
+.style-title{
+    width: 100%;
+    margin-top: 7rem;
+    color: rgb(175, 27, 27);
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }

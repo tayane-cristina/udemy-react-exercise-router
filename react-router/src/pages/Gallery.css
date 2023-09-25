@@ -1,0 +1,15 @@
+.gallery {
+    background-color: rgba(20, 20, 20, 0.897);
+}
+
+.h1-gallery{
+    margin-top: 8rem;
+    width: 100%;
+    color: rgb(175, 27, 27);
+}
+
+.card-gallery {
+    width: 500px;
+    height: 700px;
+    margin: 20px;
+}

@@ -59,23 +59,28 @@ h1 {
 }
 
 .home-h2 {
-    font-size: 7rem;
+    font-size: 6rem;
     height: 10%;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .card-one {
-    height: 300px;
+    height: 200px;
     width: 200px;
+    background-color: white;
 }
 
 .card-two {
-    height: 300px;
+    height: 200px;
     width: 200px;
+    background-color: white;
 }
 
 .card-three {
-    height: 300px;
+    height: 200px;
     width: 200px;
+    background-color: white;
 }
 
 .button-go-back {
@@ -86,6 +91,99 @@ h1 {
     border-radius: 50px 50px ;
     border: none;
     cursor: pointer;
+  }
+
+  .button-go-back:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+  }
+
+  .third-page {
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .invite-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 40%;
+  }
+
+  .home-h3 {
+    font-size: 100px;
+  }
+
+  .invite-img-whats{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .button-invite {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    
+  }
+
+  .button-invite:hover {
+    background-color: rgb(221, 218, 218);
+    border-color: rgb(12, 109, 12);
+  }
+
+  .gallery-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    
+  }
+
+  .img-glr {
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  .social-midia-icon{
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    cursor: pointer;
+  }
+
+  .social-midia-icon:hover {
+    
   }
 
 
